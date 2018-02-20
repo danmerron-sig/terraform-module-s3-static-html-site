@@ -3,8 +3,8 @@ Creates a Static HTML S3 Bucket in AWS - Configures CloudFront attaches SSL and 
 
 Usage:
 
-module "<your module name>" {
+```module "<your module name>" {
   source = "<your module path>"
   name   = "<sub-domain>"
   ssl = "<ssl-arn>"
-}
+}```
